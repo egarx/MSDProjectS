@@ -1,6 +1,6 @@
 ---
 title: "geom_timeline"
-author: "Emilio Garcia
+author: "Emilio Garcia"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{geom_timeline}

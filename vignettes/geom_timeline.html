@@ -10,6 +10,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+<meta name="author" content="Emilio Garcia" />
 
 
 <title>geom_timeline</title>
@@ -333,9 +334,14 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 
 
 <h1 class="title toc-ignore">geom_timeline</h1>
+<h4 class="author">Emilio Garcia</h4>
 
 
 
+<ol style="list-style-type: decimal">
+<li><p>Load data.</p></li>
+<li><p>Displays the earthquakes timeline as points in a plot.</p></li>
+</ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">library</span>(MSDCProjectS)</span></code></pre></div>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>path &lt;-<span class="st"> &quot;data/earthquakes-2021-05-02_07-20-17_-0400.tsv&quot;</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a>table_original &lt;-<span class="st"> </span><span class="kw">read.table</span>(<span class="dt">file =</span> path, <span class="dt">sep =</span> <span class="st">&#39;</span><span class="ch">\t</span><span class="st">&#39;</span>, <span class="dt">header =</span> <span class="ot">TRUE</span>)</span>
