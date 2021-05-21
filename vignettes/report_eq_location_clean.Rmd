@@ -1,11 +1,16 @@
 ---
 title: "report_eq_location_clean"
+author: "Emilio Garcia"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{report_eq_location_clean}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
+
+1. Load data.
+
+2. Cleans the entire dataset to make it compatible with the other functions, create date column and split Location.Name.
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(

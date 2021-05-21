@@ -14,8 +14,8 @@ library(MSDCProjectS)
 
 #### The Package consists of the functions:
 
-- [eq_clean_data](R/eq_clean_data.R) -- Cleans the entire dataset to make it compatible with the other functions.
-- [geom_timeline](R/geom_timeline.R) -- Displays the earthquakes as points in a plot.
+- [eq_clean_data](R/eq_clean_data.R) -- Cleans the entire dataset to make it compatible with the other functions, create date column and split Location.Name.
+- [geom_timeline](R/geom_timeline.R) -- Displays the earthquakes timeline as points in a plot.
 - [geom_time_label](R/geom_time_label.R) -- Labels the earthquakes in the plot created by the previous function.
 - [eq_map](R/eq_map.R) -- Displays the earthquakes by their location in a leaflet map.
 

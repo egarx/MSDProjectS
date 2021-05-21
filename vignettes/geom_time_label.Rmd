@@ -1,11 +1,16 @@
 ---
 title: "geom_time_label"
+author: "Emilio Garcia"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{geom_time_label}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
+
+1. Load data.
+
+2. Labels the earthquakes in the plot created by the previous function.
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(

@@ -1,11 +1,17 @@
 ---
 title: "report_GeomTimeline"
+autor: "Emilio Garcia"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{report_GeomTimeline}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
+
+1. Load data.
+
+2. Displays the earthquakes timeline as points in a plot.
+
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(

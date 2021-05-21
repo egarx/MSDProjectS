@@ -1,11 +1,17 @@
 ---
 title: "eq_map"
+author: "Emilio Garcia"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{eq_map}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
+
+1. Load data.
+
+2. Displays the earthquakes by their location in a leaflet map.
+
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
