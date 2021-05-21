@@ -1,0 +1,29 @@
+Package: MSDCProjectS
+Type: Package
+Title: Capstone Project
+Version: 0.1.0
+Author: Emilio Garcia
+Maintainer: Emilio Garcia <eg@newtonspark.com>
+Description: Captstone Project. The overall goal of the capstone project is to integrate the skills you have developed over the courses in this Specialization and to build a software package that can be used to work with the NOAA Significant Earthquakes dataset.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Imports: 
+    dplyr,
+    lubridate,
+    tidyr,
+    stats,
+    ggplot2,
+    grid,
+    scales,
+    rlang,
+    utils,
+    magrittr,
+    leaflet
+RoxygenNote: 7.1.1
+VignetteBuilder: knitr
+Config/testthat/edition: 3
