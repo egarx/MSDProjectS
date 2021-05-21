@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/AndersonUyekita/JHU_MSDR_Capstone.svg?branch=master)](https://travis-ci.org/AndersonUyekita/JHU_MSDR_Capstone)
+[![Travis build status](https://travis-ci.com/egarx/MSDProjectS.svg?branch=main)](https://travis-ci.com/egarx/MSDProjectS)
 
 # Mastering Software Development in R Specialization Capstone
 
